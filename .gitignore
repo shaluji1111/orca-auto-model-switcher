@@ -1,0 +1,9 @@
+# Python bytecode (also leaks the build machine's folder path)
+__pycache__/
+*.pyc
+
+# Runtime files; the tool writes these to %LOCALAPPDATA%\OrcaSmartRouter, but never commit stray copies
+*.log
+*.log.1
+guardian.lock
+model_status_cache.json

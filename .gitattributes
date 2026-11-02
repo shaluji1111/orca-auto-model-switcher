@@ -1,0 +1,3 @@
+# cmd.exe needs CRLF in batch files: store them byte-for-byte so raw downloads keep CRLF too
+* text=auto eol=lf
+*.bat -text
